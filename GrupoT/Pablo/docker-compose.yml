@@ -1,0 +1,4 @@
+  Pablo:
+    build:
+      context: ./GrupoT/Pablo
+    container_name: Pablo-container
