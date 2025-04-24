@@ -12,4 +12,8 @@ services:
     build: ./PedroMarcos
     container_name: marcos-container
 
+services:
+  Estrella:
+    build: ./Estrella
+    container_name: estrella-container 
 
