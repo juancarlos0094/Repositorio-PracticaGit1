@@ -6,3 +6,10 @@ services:
   Alejandro:
     build: ./Alejandro
     container_name: Alejandro
+
+services:
+  PedroMarcos:
+    build: ./PedroMarcos
+    container_name: marcos-container
+
+
