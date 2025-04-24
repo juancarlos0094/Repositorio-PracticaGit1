@@ -30,3 +30,13 @@ services:
     build:
       context: ./alvaro
     container_name: contenedor_alvaro
+
+  josealejandrogc94:
+    build:
+      context: ./josealejandrogc94
+    container_name: josealejandrogc94_container
+
+  hector:
+    build:
+      context: ./hector
+    container_name: hector_container

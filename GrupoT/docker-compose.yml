@@ -1,0 +1,6 @@
+version: '3'
+services:
+   Eva:
+    build:
+      context: ./GrupoT/Equipo
+      container_name: EvaM-container
