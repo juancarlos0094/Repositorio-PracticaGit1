@@ -35,3 +35,8 @@ services:
     build:
       context: ./josealejandrogc94
     container_name: josealejandrogc94_container
+
+  hector:
+    build:
+      context: ./hector
+    container_name: hector_container
