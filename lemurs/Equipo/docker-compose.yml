@@ -1,0 +1,20 @@
+services:
+  Jose-MQ:
+    build: ./Jose-MQ
+    container_name: Jose-MQ
+
+services:
+  Alejandro:
+    build: ./Alejandro
+    container_name: Alejandro
+
+services:
+  PedroMarcos:
+    build: ./PedroMarcos
+    container_name: marcos-container
+
+services:
+  Estrella:
+    build: ./Estrella
+    container_name: estrella-container 
+
