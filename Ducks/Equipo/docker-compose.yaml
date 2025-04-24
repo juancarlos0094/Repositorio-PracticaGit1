@@ -11,3 +11,27 @@ services:
       context: ./Paula
     container_name: paula_container
 
+  antonio:
+    build:
+      context: ./Antonio
+    container_name: antonio_container
+
+  lucia:
+    build:
+      context: ./Lucia
+    container_name: lucia_container
+
+  fcojvrmn:
+    build:
+      context: ./fcojvrmn
+    container_name: fcojvrmn_container
+
+  alvaro:
+    build:
+      context: ./alvaro
+    container_name: contenedor_alvaro
+
+  josealejandrogc94:
+    build:
+      context: ./josealejandrogc94
+    container_name: josealejandrogc94_container
