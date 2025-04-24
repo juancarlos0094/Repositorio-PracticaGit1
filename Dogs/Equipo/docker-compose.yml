@@ -39,8 +39,6 @@ services:
     build: ./david_raez
     container_name: David_Raez 
 
-
   contenedor-damian:
     build: ./Damian
     container_name: contenedor-damian
-
