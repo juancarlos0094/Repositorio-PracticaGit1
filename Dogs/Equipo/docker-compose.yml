@@ -36,7 +36,7 @@ services:
     container_name: Salvador_Malia 
 
   david_raez:
-    build: ./david_raez
+    build: ./David_Raez
     container_name: David_Raez 
 
   contenedor-damian:
