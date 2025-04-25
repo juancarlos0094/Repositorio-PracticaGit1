@@ -1,6 +1,0 @@
-version: '3'
-services:
- salvamoli:
-    build:
-      context: ./Equipo/Salvamoli  
-    container_name: contenedor_salvamoli
