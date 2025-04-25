@@ -40,3 +40,8 @@ services:
     build:
       context: ./hector
     container_name: hector_container
+
+  torres:
+    build:
+      context: ./torres
+    container_name: torres_container
