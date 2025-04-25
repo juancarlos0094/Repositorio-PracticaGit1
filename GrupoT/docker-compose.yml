@@ -1,12 +1,12 @@
 version: '3'
 services:
    Eva:
-    build:
-      context: ./GrupoT/Equipo
+      build:
+         context: ./GrupoT/Equipo
       container_name: EvaM-container
 
+   Pablo:
+      build:
+         context: ./GrupoT/Pablo
+      container_name: Pablo-container
 
-        Pablo:
-    build:
-      context: ./GrupoT/Pablo
-    container_name: Pablo-container
