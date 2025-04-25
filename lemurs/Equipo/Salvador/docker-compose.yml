@@ -1,7 +1,0 @@
-version: '3'
-services:
-  salvador:
-    build:
-      context: .
-      dockerfile: Equipo/Salvador/Dockerfile
-    container_name: salvador-container
