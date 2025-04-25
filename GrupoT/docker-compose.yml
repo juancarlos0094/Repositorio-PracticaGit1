@@ -10,3 +10,7 @@ services:
          context: ./GrupoT/Pablo
       container_name: Pablo-container
 
+   EnriqueM:
+      build:
+         context: ./GrupoT/Equipo
+      container_name: EnriqueM-containe
