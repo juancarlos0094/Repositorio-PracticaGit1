@@ -1,29 +1,32 @@
-version: '3.8'
 services:
-  jesus-Arias:
+  jesus-arias:
     build: ./jesus-arias
     container_name: contenedor-jesus
-  Ángel:
+
+  angel:
     build:
-      context: ./Equipo/Ángel
-    container_name: Ángel_container
-  santiago_Cuevas:
+      context: ./angel
+    container_name: angel-container
+
+  santiago-cuevas:
     build:
-      context: .
-      dockerfile: Equipo/Santiago_Cuevas/Dockerfile
-    container_name: santiago_cuevas_container
-  Antonio:
+      context: ./santiago-cuevas
+    container_name: santiago-cuevas-container
+
+  antonio:
     build:
-      context: ./Equipo/Antonio
-    container_name: Antonio_container
-  Steve:
+      context: ./antonio
+    container_name: antonio-container
+
+  steve:
     build:
-      context: ./Steve
-      dockerfile: Dockerfile
+      context: ./steve
     container_name: mi-imagen-steve
+
   maria:
     build:
-       context: ./maria
-    container_name: maria_container
+      context: ./maria
+    container_name: maria-container
+
 networks:
   default:
