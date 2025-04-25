@@ -14,3 +14,9 @@ services:
       build:
          context: ./GrupoT/Equipo
       container_name: EnriqueM-containe
+
+   Juan Carlos García Aguilar:
+      buil:
+         context: ./GrupoT/Equipo
+      cintainer_name: Juan Carlos García Aguilar-container
+      
