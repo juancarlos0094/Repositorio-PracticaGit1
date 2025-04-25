@@ -3,10 +3,10 @@ services:
   jesus-Arias:
     build: ./jesus-arias
     container_name: contenedor-jesus
-  Ángel:
+  Angel:
     build:
-      context: ./Equipo/Ángel
-    container_name: Ángel_container
+      context: ./Equipo/Angel
+    container_name: angel_container
   santiago_Cuevas:
     build:
       context: .
