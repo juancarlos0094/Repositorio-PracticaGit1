@@ -18,3 +18,7 @@ services:
     build: ./Estrella
     container_name: estrella-container 
 
+services:
+Salvador:
+build ./Equipo/Salvador
+container_name: salvador-container
